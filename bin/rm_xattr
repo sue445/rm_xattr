@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+require 'rm_xattr'
+
+if ARGV.empty?
+  puts <<USAGE
+usage: rm_xattr [file | directory]
+USAGE
+  exit
+end
+
+path = ARGV[0]
+
+if File.directory?(path)
+  Dir.glob("#{path}/**/*").each do |file|
+    RmXattr.rm_xattrs(file)
+  end
+else
+  RmXattr.rm_xattrs(path)
+end
