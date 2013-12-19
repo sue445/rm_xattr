@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = RmXattr::VERSION
   spec.authors       = ["sue445"]
   spec.email         = ["sue445@sue445.net"]
-  spec.description   = %q{remove mac Extended Attributes}
-  spec.summary       = %q{remove mac Extended Attributes}
+  spec.description   = %q{Remove Mac Extended Attributes}
+  spec.summary       = %q{Remove Mac Extended Attributes}
   spec.homepage      = "https://github.com/sue445/rm_xattr"
   spec.license       = "MIT"
 
