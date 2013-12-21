@@ -2,6 +2,10 @@
 
 Remove Mac Extended Attributes
 
+## Requirements
+
+ruby >= 1.9
+
 ## Installation
 
     $ gem install rm_xattr
