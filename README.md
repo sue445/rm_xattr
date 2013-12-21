@@ -1,24 +1,24 @@
 # RmXattr
 
-TODO: Write a gem description
+Remove Mac Extended Attributes
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'rm_xattr'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install rm_xattr
 
 ## Usage
 
-TODO: Write usage instructions here
+```sh
+$ ls -l
+total 129208
+-rw-r--r--@ 1 sue445  staff  66150602 12 21 22:10 jenkins.war
+
+$ rm_xattr jenkins.war
+
+$ ls -l
+total 129208
+-rw-r--r--  1 sue445  staff  66150602 12 21 22:10 jenkins.war
+```
 
 ## Contributing
 
