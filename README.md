@@ -1,4 +1,4 @@
-# RmXattr
+# RmXattr [![Gem Version](https://badge.fury.io/rb/rm_xattr.png)](http://badge.fury.io/rb/rm_xattr)
 
 Remove Mac Extended Attributes
 
