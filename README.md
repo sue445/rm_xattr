@@ -7,7 +7,11 @@ Remove Mac Extended Attributes
     $ gem install rm_xattr
 
 ## Usage
+```sh
+rm_xattr [file | directory]
+```
 
+## Example
 ```sh
 $ ls -l
 total 129208
