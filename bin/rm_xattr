@@ -9,12 +9,12 @@ USAGE
   exit
 end
 
-path = ARGV[0]
-
-if File.directory?(path)
-  Dir.glob("#{path}/**/*").each do |file|
-    RmXattr.rm_xattrs(file)
+ARGV.each do |path|
+  if File.directory?(path)
+    Dir.glob("#{path}/**/*").each do |file|
+      RmXattr.rm_xattrs(file)
+    end
+  else
+    RmXattr.rm_xattrs(path)
   end
-else
-  RmXattr.rm_xattrs(path)
 end
