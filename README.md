@@ -12,7 +12,7 @@ ruby >= 1.9
 
 ## Usage
 ```sh
-rm_xattr [file | directory]
+rm_xattr [file | directory] ...
 ```
 
 ## Example
@@ -27,6 +27,18 @@ $ ls -l
 total 129208
 -rw-r--r--  1 sue445  staff  66150602 12 21 22:10 jenkins.war
 ```
+
+## Changelog
+### master
+[full changelog](http://github.com/sue445/rm_xattr/compare/v0.0.2...master)
+
+### 0.0.2
+[full changelog](http://github.com/sue445/rm_xattr/compare/v0.0.1...v0.0.2)
+
+* support multiple args
+
+### 0.0.1
+* first release
 
 ## Contributing
 
